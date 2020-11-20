@@ -1,0 +1,18 @@
+texto = "       curso de Python 3, Python basico     "
+
+resultado = texto.capitalize()
+print(resultado)
+resultado = texto.swapcase()
+print(resultado)
+resultado = texto.upper()
+print(resultado.isupper())
+print(resultado)
+print(resultado.isupper())
+resultado = texto.lower()
+print(resultado)
+resultado = texto.title()
+print(resultado)
+resultado = texto.replace("Python", "ruby", 1)
+print(resultado)
+resultado = texto.strip()
+print(resultado)
